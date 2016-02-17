@@ -1,0 +1,48 @@
+.item{
+	border: 1px solid #dadbdf;
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+.content{
+	margin-bottom: 10px;
+}
+
+.img{
+	display: inline-block;
+	*display: inline;
+	width: 100px;
+	height: 90px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.info{
+	display: inline-block;
+	*display: inline;
+	width: 70%;
+	position: absolute;
+	left: 120px;
+}
+
+.info a{
+	display: block;
+	margin-top: 5px;
+	color: #25d;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+
+.info a:hover{
+	color: red;
+}
+
+.info p{
+	margin: 0px;
+}
+
+.hr{
+	margin: 10px 0px;
+}
